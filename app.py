@@ -137,4 +137,4 @@ def updateunivariant(univ):
            'layout':go.Layout(title='Univariant Analysis of {}'.format(univ),titlefont={"size": 15,'color':'#33004d'},yaxis={'title':'Distribution of {}'.format(univ)})}
 
 if __name__=='__main__':
-    app.run_server()
+    app.run_server(debug='True')
