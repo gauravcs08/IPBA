@@ -15,8 +15,9 @@ from plotly.subplots import make_subplots
 import random
 from dash.dependencies import Output,Input
 import dash_auth
+from pathlib import Path
 url='https://github.com/gauravcs08/IPBA.git/master/hr.csv'
-data=pd.read_csv('url')
+data=pd.read_csv(url)
 
 USERNAME_PASSWORD_PAIRS=[['gauravcs08','fvpl@123']]
     
